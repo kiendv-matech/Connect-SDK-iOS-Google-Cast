@@ -139,7 +139,8 @@ static NSString *const kSubtitleTrackDefaultLanguage = @"en";
 -(NSString *)castWebAppId
 {
     if(_castWebAppId == nil){
-        _castWebAppId = kGCKMediaDefaultReceiverApplicationID;
+//        _castWebAppId = kGCKMediaDefaultReceiverApplicationID;
+        _castWebAppId = @"F80096EA";
     }
     return _castWebAppId;
 }
